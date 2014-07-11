@@ -169,7 +169,10 @@ function AjaxForComment() {
         userCode += "<div class='support-oppose'><a href='#'>support | </a><a href='#'>oppose</a></div></dd></dl>";
         $("#comment-list").append(userCode);
       }
-      MoveToPage(parseInt(localStorage.nowPage), 5);  
+      if (localStorage.nowPage >= '1')
+        MoveToPage(parseInt(localStorage.nowPage), 5);  
+      else
+        MoveToPage(1, 5);
     },
     error: function () {
       alert('error!');
@@ -179,7 +182,7 @@ function AjaxForComment() {
 
 //增加localStorage：存储上一次访问的图片和评论页面编号
 var nowPage = '1'; 
-var nowIco = '6';
+var nowIco = '1';
 
 //总控制端
 $(document).ready(function() {
@@ -188,7 +191,7 @@ $(document).ready(function() {
       $("#welcome").hide();
       $('#main-wrapper').fadeIn('slow');
       AjaxForImage();
-      AjaxForComment()
+      AjaxForComment();
     });
   })
 })
