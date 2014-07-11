@@ -1,0 +1,26 @@
+﻿{
+	"img":[
+	{"img":"<img src='images/1.jpg' />"},
+	{"img":"<img src='images/2.jpg' />"},
+	{"img":"<img src='images/3.jpg' />"},
+	{"img":"<img src='images/4.jpg' />"},
+	{"img":"<img src='images/5.jpg' />"},
+	{"img":"<img src='images/6.jpg' />"}
+	],
+	"tit":[
+	{"tit":"<p class='active'><span>Life is Simple(1)</span></p>"},
+	{"tit":"<p>Life is Simple(2)</p>"},
+	{"tit":"<p>Life is Simple(3)</p>"},
+	{"tit":"<p>Life is Simple(4)</p>"},
+	{"tit":"<p>Life is Simple(5)</p>"},
+	{"tit":"<p>Life is Simple(6)</p>"}
+	],
+	"ico":[
+	{"ico":"<span class='active' rel='1'>1</span>"},
+	{"ico":"<span rel='2'>2</span>"},
+	{"ico":"<span rel='3'>3</span>"},
+	{"ico":"<span rel='4'>4</span>"},
+	{"ico":"<span rel='5'>5</span>"},
+	{"ico":"<span rel='6'>6</span>"}
+	]
+}

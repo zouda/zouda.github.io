@@ -43,13 +43,13 @@
 							<p class="sign">by 阿棕</p>
 						</div>
 						<div class="blogtext">
-							<h2>第二篇日志：待续</h2>
+							<h2>第二篇日志：待续</h2></br>
 						</div>
 						<div class="blogtext">
-							<h2>第三篇日志：待续</h2>
+							<h2>第三篇日志：待续</h2></br>
 						</div>
 						<div class="blogtext">
-							<h2>第四篇日志：待续</h2>
+							<h2>第四篇日志：待续</h2></br>
 						</div>
 						<div class="blogtext">
 							<h2>……</h2>
@@ -60,10 +60,10 @@
 		</div>
 		<div id="sidebar">
 			<h2>日志列表</h2>
-			<a href="#">第一篇日志</a></br>
-			<a href="#">第二篇日志</a></br>
-			<a href="#">第三篇日志</a></br>
-			<a href="#">第四篇日志</a></br>
+			<a href="#">第一篇日志</a>
+			<a href="#">第二篇日志</a>
+			<a href="#">第三篇日志</a>
+			<a href="#">第四篇日志</a>
 		</div>
 	</div>
 </div>

@@ -399,6 +399,11 @@ img.photo{
 	border-color:#b3b3b3;
 }
 
+#sidebar h2
+{
+	
+}
+
 #sidebar a
 {
 	margin:10px;
