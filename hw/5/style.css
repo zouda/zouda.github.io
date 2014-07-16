@@ -1,0 +1,125 @@
+﻿body, html{
+	
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+	display: block;
+	overflow: scroll;
+	background-color: #222222;
+}
+
+#welcome{
+	margin:50px;
+	height: 530px;
+	width: 1200px;
+	background-color:#4EC6E4;
+	float:left;
+	z-index: 1;
+	zoom:1;
+}
+
+#hint{
+	margin:50px;
+	height: 530px;
+	width: 1200px;
+	background:url("img/back.jpg");
+	float:left;
+	zoom:1;
+	z-index:1;
+	display:none;
+}
+
+#GG{
+	position:absolute;
+	top:250px;
+	left:400px;
+	background: transparent;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-family: "微软雅黑";
+	font-size:3em;
+	color:#8896CC;
+	font-weight: 900;
+	opacity: 0.8;
+	text-decoration: none;
+	z-index: 100;
+}
+
+#start{
+	position:absolute;
+	top:250px;
+	left:500px;
+	background: #fff;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-family: "微软雅黑";
+	font-size:3em;
+	color:#4EC6E4;
+	font-weight: 900;
+	border-width:1px;
+	border-style:solid;
+	border-radius:50px;
+	border-color:#b3b3b3;
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+#start:hover{
+	opacity: 1;
+}
+
+#leading{
+	position: absolute;
+	bottom:100px;
+	left:100px;
+	font-family: "微软雅黑";
+	color:#fff;
+	font-size:2em;
+	font-weight: 900;
+}
+
+#mainWrapper{
+	height:100%;
+	width:100%;
+	position:absolute;
+	margin: 0;
+	background-color: #222222;
+	display: none;
+	/*z-index: 20;*/
+}
+
+#playBox{
+	background: url("img/back.jpg");
+	position:absolute;
+	top:50px;
+	left:50px;
+	height:550px;
+	width:1200px;
+	background-color: #fff;
+	overflow: hidden;
+}
+#levelBox{
+	font-family: sacramento, cursive;
+	font-size:2em;
+	position:absolute;
+	display: block;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#100100100;
+	left:75px;
+	top:50px;
+	padding:15px;
+	opacity: 0.5; 
+	color:#8896CC;
+}
+.bullet{
+}
+
+.enemy{
+}
