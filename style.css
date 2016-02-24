@@ -1,0 +1,143 @@
+html, body{
+	background: #F5FCF5;
+}
+body{
+	padding-top: 0;
+}
+#page-container{
+	background: #F5FCF5;
+    padding: 1em;
+    max-width: 900px;
+}
+.handwriting {
+    font-family: 'Nothing You Could Do', cursive;
+    color: #556655;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+hr.line {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* latin */
+@font-face {
+  font-family: 'Nothing You Could Do';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nothing You Could Do'), local('NothingYouCouldDo'), url(NothingYouCouldDo.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+#body {
+    background: #F5FCF5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#page_container {
+    background: #F5FCF5;
+    padding: 1em;
+    max-width: 900px;
+}
+
+/* General Classes */
+
+.col-fixed1 {
+  max-width: 400px;
+}
+
+.tiny {
+    font-size:8pt;
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.subsection {
+  border-style: none none none solid;
+  border-color: #000000;
+  border-left: thin solid #000000;  
+  padding-left: 1em;
+  margin-left: 1em;
+  margin-bottom: .5em;
+}
+
+.papertitle {
+    color: #333333;
+    font-weight: bold;
+}
+
+.content {
+    margin: 1em;
+}
+
+.info {
+    /*margin-bottom: 1em;*/
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.bibtex {
+    font-family: monospace;
+}
+
+/* Header and Footer */
+
+.footer {
+    margin: 1em;
+    padding-top: 1em;
+    font-size: 8pt;
+    text-align: right;
+}
+
+.handwriting {
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.quiche {
+  text-align: center;
+  margin-top: 1em; 
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+/* Changes the color of the carousel indicators. */
+.carousel-indicators li {
+    border-color: #000000;
+    background-color: #FFFFFF;
+}
+.carousel-indicators .active {
+    border-color: #000000;
+    background-color: #000000;
+}
+
+/* Self Info Header */
+
+.img-self {
+  max-width: 230px;
+  float: left;
+  margin-right: 2em;
+}
+
+.affiliations {
+    margin: 1em;
+}
+
+@media (max-width: 768px) {
+
+  .img-self{
+    float: none;
+    margin: auto;
+  }
+
+  .affiliations {
+    clear: both;
+    text-align: center;
+  }
+}
